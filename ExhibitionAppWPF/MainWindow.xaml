@@ -1,0 +1,10 @@
+﻿<Window x:Class="ExhibitionAppWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Museum Exhibit Display" Height="450" Width="800">
+    <Grid>
+        <ComboBox x:Name="FloorComboBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="10" SelectionChanged="FloorComboBox_SelectionChanged"/>
+        <ComboBox x:Name="HallComboBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="10,50,0,0" SelectionChanged="HallComboBox_SelectionChanged"/>
+        <TextBlock x:Name="ExhibitDetailsTextBlock" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,100,0,0" Width="760" Height="200"/>
+    </Grid>
+</Window>
